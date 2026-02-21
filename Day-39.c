@@ -2,27 +2,16 @@
 int main(){
 
 
-// check prime number or not 
+// Loop problem class work 
 
-int n,count=0;
-scanf("%d",&n);
+// 1 . print 1-20 numbers 
 
-for(int i = 2;i<n;i++){
-
-    if(n%i==0){
-        break;
-        count++;
-    }
-
-
+int i;
+for(i = 1;i<=20;i++){
+    printf("%d\n",i);
 }
 
-if(count == 0){
-    printf("Prime number");
-}
-else{
-    printf("Not a prime number");
-}
+
 
 
 
